@@ -1,0 +1,7 @@
+stackoverflow for Data Matrix reading, square vs round frame:
+https://stackoverflow.com/questions/44926316/how-to-locate-and-read-data-matrix-code-with-python
+
+libdmtx documentation. Utility for Data Matrix Read and Write
+https://libdmtx.sourceforge.net/
+https://github.com/dmtx/libdmtx
+http://libdmtx.wikidot.com/general-instructions
