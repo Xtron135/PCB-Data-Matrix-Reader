@@ -5,3 +5,7 @@ libdmtx documentation. Utility for Data Matrix Read and Write
 https://libdmtx.sourceforge.net/
 https://github.com/dmtx/libdmtx
 http://libdmtx.wikidot.com/general-instructions
+
+
+Camera Used:
+https://my.cytron.io/p-usb-camera-with-housing-for-raspberry-pi-jetson
