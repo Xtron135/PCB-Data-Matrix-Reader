@@ -7,5 +7,32 @@ https://github.com/dmtx/libdmtx
 http://libdmtx.wikidot.com/general-instructions
 
 
+https://docs.opencv.org/4.x/d6/d25/tutorial_barcode_detect_and_decode.html
+
+pylibdmtx 
+https://pypi.org/project/pylibdmtx/
+
+
+roboflow
+look in roboflow for dataset for data matrix
+
+https://universe.roboflow.com/tryclofus/dtmx
+
+
+
+pytorch
+
+
 Camera Used:
 https://my.cytron.io/p-usb-camera-with-housing-for-raspberry-pi-jetson
+
+pitunnel
+
+
+OpenCV data matrix library
+
+
+Lebar 58 cm
+Tinggi 32 cm
+Tebal 10 cm
+
