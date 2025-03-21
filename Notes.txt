@@ -25,6 +25,8 @@ https://my.cytron.io/tutorial/worker-safety-compliance-monitoring-system-with-ra
 Notes: Use YOLOV5 at max. Raspberry Pi architecture only supports up to YOLOv5. More than that will require more processing power to the level of a supercomputer
 
 
+pip install numpy --upgrade
+
 
 pytorch
 
