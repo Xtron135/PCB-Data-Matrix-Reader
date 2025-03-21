@@ -1,6 +1,6 @@
-train: "C:\Users\xtron\OneDrive\Documents\Work\Cytron\05 - Projects\PCB-Data-Matrix-Reader\Example_Data_Matrix\dtmx.v1i.yolov5pytorch\test\images"
-val: "C:\Users\xtron\OneDrive\Documents\Work\Cytron\05 - Projects\PCB-Data-Matrix-Reader\Example_Data_Matrix\dtmx.v1i.yolov5pytorch\train\images"
-test: "C:\Users\xtron\OneDrive\Documents\Work\Cytron\05 - Projects\PCB-Data-Matrix-Reader\Example_Data_Matrix\dtmx.v1i.yolov5pytorch\valid\images"
+train: C:\Users\xtron\OneDrive\Documents\Work\Cytron\05-Projects\PCB-Data-Matrix-Reader\Example_Data_Matrix\dtmx.v1i.yolov5pytorch\test\images
+val: C:\Users\xtron\OneDrive\Documents\Work\Cytron\05-Projects\PCB-Data-Matrix-Reader\Example_Data_Matrix\dtmx.v1i.yolov5pytorch\train\images
+test: C:\Users\xtron\OneDrive\Documents\Work\Cytron\05-Projects\PCB-Data-Matrix-Reader\Example_Data_Matrix\dtmx.v1i.yolov5pytorch\valid\images
 
 nc: 2
 names: ['0', 'Data-Matrix']

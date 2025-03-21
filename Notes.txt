@@ -20,7 +20,15 @@ https://universe.roboflow.com/tryclofus/dtmx
 
 
 
+https://my.cytron.io/tutorial/worker-safety-compliance-monitoring-system-with-raspberry-pi-5
+
+Notes: Use YOLOV5 at max. Raspberry Pi architecture only supports up to YOLOv5. More than that will require more processing power to the level of a supercomputer
+
+
+
 pytorch
+
+https://pytorch.org/get-started/locally/
 
 
 Camera Used:
@@ -30,6 +38,11 @@ pitunnel
 
 
 OpenCV data matrix library
+
+
+Data Matrix total length = 21. 1 letter 20 numbers
+
+Based on AI Model Trained, capable of reading up to 15 cm max, stable. 3000 image trained
 
 
 Lebar 58 cm
