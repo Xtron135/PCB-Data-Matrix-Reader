@@ -1,3 +1,6 @@
+# This is a thinking, troubleshooting and drafting flow of the project.
+# Basically an unorganized readme. Please refer to Readme for proper reference and documentation.
+
 stackoverflow for Data Matrix reading, square vs round frame:
 https://stackoverflow.com/questions/44926316/how-to-locate-and-read-data-matrix-code-with-python
 
@@ -42,6 +45,23 @@ pitunnel
 
 ffplay -f v4l2 -video_size 640x480 -framerate 30 -i /dev/video0 (Preview Camera)
 fswebcam image.jpg
+
+
+Error Windows Path:
+Edit /yolov5/models/experimental.py
+Find attempt_load() function. 
+After "from models.yolo" line, add in:
+
+-----
+
+import pathlib
+import sys
+
+if sys.platform != 'win!32:
+    pathlib.WindowsPath = pathlib.PosixPath
+
+-----
+
 
 
 
