@@ -15,6 +15,9 @@ https://docs.opencv.org/4.x/d6/d25/tutorial_barcode_detect_and_decode.html
 pylibdmtx 
 https://pypi.org/project/pylibdmtx/
 
+pip3 install pylibdmtx
+pip3 install pillow
+
 
 roboflow
 look in roboflow for dataset for data matrix
@@ -42,9 +45,14 @@ https://my.cytron.io/p-usb-camera-with-housing-for-raspberry-pi-jetson
 pitunnel
 
 
+https://www.raspberrypi.com/documentation/computers/camera_software.html#use-a-usb-webcam
 
 ffplay -f v4l2 -video_size 640x480 -framerate 30 -i /dev/video0 (Preview Camera)
 fswebcam image.jpg
+
+fswebcam -r 640x480 --no-banner /home/pi/yolov5/input/image.jpg
+
+python3 detect.py --weights best.pt --img 640 --conf 0.5 --source /home/pi/yolov5/input/image.jpg --save-crop --project /home/pi/yolov5/output --exist-ok
 
 
 Error Windows Path:
@@ -62,6 +70,9 @@ if sys.platform != 'win!32:
 
 -----
 
+
+run python code using other python code:
+https://www.geeksforgeeks.org/run-one-python-script-from-another-in-python/-
 
 
 
