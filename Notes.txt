@@ -10,9 +10,7 @@ https://github.com/dmtx/libdmtx
 http://libdmtx.wikidot.com/general-instructions
 
 
-https://docs.opencv.org/4.x/d6/d25/tutorial_barcode_detect_and_decode.html
-
-pylibdmtx 
+pylibdmtx usage instruction
 https://pypi.org/project/pylibdmtx/
 
 pip3 install pylibdmtx
