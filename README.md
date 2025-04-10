@@ -1,12 +1,10 @@
 # PCB-Data-Matrix-Reader
 
 
-
 ## Overview
 
 
-This project uses an Industrial Controller; IRIV PiControl, based on Rasberry Pi Compute Module 5 to read PCB Data Matrix using USB Camera. This repo is a simplified concept and procedure for developing this project. A detailed tutorial will be developed on Cytron Technologies Tutorial Page.
-
+This project uses an Industrial Controller; IRIV PiControl, based on Rasberry Pi Compute Module 5 to read PCB Data Matrix using USB Camera. This repo is a simplified concept and procedure for developing this project. A detailed tutorial will be developed on the Cytron Technologies Tutorial Page.
 
 
 ## Hardwares
@@ -21,12 +19,25 @@ This project uses an Industrial Controller; IRIV PiControl, based on Rasberry Pi
 > You can also develop this project using a normal Raspberry PI 5. Modify the connection accordingly based on your wiring configuration.
 
 
-
 ## Project Flow
 
 
-A lot of processes are involved in this project. This is a rough overview on how the flow of the code works.
+A lot of processes are involved in this project. This is a rough overview of how the flow of the code works.
 
+1. Capturing the image of the PCB board.
+2. Detect and classify the existence and position of the Data Matrix on the board.
+3. Crop the Data Matrix image out from the main image.
+4. Read the content of the Data Matrix.
+5. Store the Data Matrix content in a txt file.
+6. Upload the content to online server/cloud API [Future]
+
+
+## Hardware Scope and Limitation
+
+- Maximum PCB Board size allowed to scan is around 27 x 27 cm
+- Captured image resolution is 640 x 640 px
+- The program should be able to read multiple Data Matrix at once. [Future]
+- The distance between the camera and the PCB Board needs to be around 30 cm.
 
 
 ## Reference
