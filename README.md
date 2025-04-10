@@ -40,13 +40,13 @@ A lot of processes are involved in this project. This is a rough overview of how
 
 ## Hardware Scope and Limitation
 
-- Maximum PCB Board size allowed to scan is around 27 x 27 cm
+- Maximum PCB Board size allowed to scan is around 15 x 15 cm
 - Captured image resolution is 640 x 640 px
 - The program should be able to read multiple Data Matrix at once. [Future]
-- The distance between the camera and the PCB Board needs to be around 30 cm.
+- The distance between the camera and the PCB Board needs to be around 15 cm.
 
 > [!IMPORTANT]
-> The camera distance depends on your maximum PCB size and the resolution of your camera. For our case, to scan a 27 x 27 cm PCB and get a clear image using a 5 MP camera, the distance needs to be 30 cm.
+> The camera distance depends on your maximum PCB size and the resolution of your camera. For our case, to scan a 15 x 15 cm PCB and get a clear image using a 5 MP camera, the distance needs to be 15 cm.
 
 
 ## Reference
