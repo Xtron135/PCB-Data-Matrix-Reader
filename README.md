@@ -49,6 +49,12 @@ A lot of processes are involved in this project. This is a rough overview of how
 > The camera distance depends on your maximum PCB size and the resolution of your camera. For our case, to scan a 15 x 15 cm PCB and get a clear image using a 5 MP camera, the distance needs to be 15 cm.
 
 
+## Procedures
+
+
+## Code Explanation
+
+
 ## Reference
 
 Data Matrix Dataset is from Roboflow User, tryclofus. All credits for the dataset goes to him.\
@@ -60,5 +66,5 @@ https://www.raspberrypi.com/documentation/computers/camera_software.html#use-a-u
 AI Vision Recognition using YOLO5. Train models and use YOLOV5.\
 https://my.cytron.io/tutorial/worker-safety-compliance-monitoring-system-with-raspberry-pi-5
 
-Read Data Matrix contents using pylibdmtx library\
+Read Data Matrix contents using 'pylibdmtx' library\
 https://pypi.org/project/pylibdmtx/
