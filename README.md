@@ -39,7 +39,7 @@ A lot of processes are involved in this project. This is a rough overview of how
 - The program should be able to read multiple Data Matrix at once. [Future]
 - The distance between the camera and the PCB Board needs to be around 30 cm.
 
-> [!NOTE]
+> [!IMPORTANT]
 > The camera distance depends on your maximum PCB size and the resolution of your camera. For our case, to scan a 27 x 27 cm PCB and get a clear image using a 5 MP camera, the distance needs to be 30 cm.
 
 
