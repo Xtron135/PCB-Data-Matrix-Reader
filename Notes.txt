@@ -29,7 +29,7 @@ https://my.cytron.io/tutorial/worker-safety-compliance-monitoring-system-with-ra
 Notes: Use YOLOV5 at max. Raspberry Pi architecture only supports up to YOLOv5. More than that will require more processing power to the level of a supercomputer
 
 
-pip install numpy --upgrade
+pip3 install numpy -U
 
 
 pytorch
@@ -46,6 +46,7 @@ pitunnel
 https://www.raspberrypi.com/documentation/computers/camera_software.html#use-a-usb-webcam
 
 ffplay -f v4l2 -video_size 640x480 -framerate 30 -i /dev/video0 (Preview Camera)
+
 fswebcam image.jpg
 
 fswebcam -r 640x480 --no-banner /home/pi/yolov5/input/image.jpg
