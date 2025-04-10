@@ -1,6 +1,12 @@
 # PCB-Data-Matrix-Reader
 
 
+> [!WARNING]
+> This project is still in development. Some planned features are still in development and not ready.
+> - Currently the program only able to detect and process one Data Matrix at once. Planned to be able to scan multiple Data Matrix.
+> - Currently the program saves the Data Matrix content in a txt file. Planned to be able to upload to server/cloud API.
+
+
 ## Overview
 
 
