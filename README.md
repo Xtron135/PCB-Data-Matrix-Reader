@@ -10,19 +10,20 @@
 ## Overview
 
 
-This project uses an Industrial Controller; IRIV PiControl, based on Rasberry Pi Compute Module 5 to read PCB Data Matrix using USB Camera. This repo is a simplified concept and procedure for developing this project. A detailed tutorial will be developed on the Cytron Technologies Tutorial Page.
+This project uses an Industrial Controller; [IRIV PiControl](https://my.cytron.io/p-iriv-picontrol-cm4-industrial-controller), based on Rasberry Pi Compute Module 5 to read PCB Data Matrix using USB Camera. This repo is a simplified concept and procedure for developing this project. A detailed tutorial will be developed on the Cytron Technologies Tutorial Page.
 
 
 ## Hardwares
 
 
-- IRIV PiControl CM5 8GB RAM 32GB eMMC
-- USB Camera 5MP
-- A push button (Connected to GPIO 13)
-- An LED (Connected to GPIO 23)
+- [IRIV PiControl CM5 8GB RAM 32GB eMMC](https://my.cytron.io/p-iriv-picontrol-cm4-industrial-controller)
+- [USB Camera 5MP](https://my.cytron.io/c-raspberry-pi-camera/p-usb-camera-with-housing-for-raspberry-pi-jetson)
+- [A Push Button (Industrial Illuminated Push Button)(Connected to GPIO 13)](https://my.cytron.io/p-illuminated-push-push-button-24vdc-240vac)
+- [An LED (Industrial Illuminated Push Button)(Connected to GPIO 23)](https://my.cytron.io/p-illuminated-push-push-button-24vdc-240vac)
 
 > [!NOTE]
 > You can also develop this project using a normal Raspberry PI 5. Modify the connection accordingly based on your wiring configuration.
+> In our case, we use the [IRIV PiControl Training Kit](https://my.cytron.io/p-iriv-picontrol-industry-4p0-kit-and-workshops) and simply use the included Illuminated Push Button.
 
 
 ## Project Flow
