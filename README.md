@@ -10,7 +10,7 @@
 ## Overview
 
 
-This project uses an Industrial Controller; [IRIV PiControl](https://my.cytron.io/p-iriv-picontrol-cm4-industrial-controller), based on Rasberry Pi Compute Module 5 to read PCB Data Matrix using USB Camera. This repo is a simplified concept and procedure for developing this project. A detailed tutorial will be developed on the Cytron Technologies Tutorial Page.
+This project uses an Industrial Controller; [IRIV PiControl](https://my.cytron.io/p-iriv-picontrol-cm4-industrial-controller){:target="_blank"}, based on Rasberry Pi Compute Module 5 to read PCB Data Matrix using USB Camera. This repo is a simplified concept and procedure for developing this project. A detailed tutorial will be developed on the Cytron Technologies Tutorial Page.
 
 
 ## Hardwares
