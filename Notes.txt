@@ -28,6 +28,8 @@ https://my.cytron.io/tutorial/worker-safety-compliance-monitoring-system-with-ra
 
 Notes: Use YOLOV5 at max. Raspberry Pi architecture only supports up to YOLOv5. More than that will require more processing power to the level of a supercomputer
 
+Notes: Commercial Use of YOLO model. YOLOv4 and below is allowed to be use in commercial with no problem. YOLOv5 and above, you need to open source your projects if you want commercialize it.
+
 
 pip3 install numpy -U
 
@@ -51,7 +53,11 @@ fswebcam image.jpg
 
 fswebcam -r 640x480 --no-banner /home/pi/yolov5/input/image.jpg
 
+python3 detect.py --weights best.pt --img 640 --conf 0.5 --source 0
+
 python3 detect.py --weights best.pt --img 640 --conf 0.5 --source /home/pi/yolov5/input/image.jpg --save-crop --project /home/pi/yolov5/output --exist-ok
+
+
 
 
 Error Windows Path:
