@@ -53,7 +53,7 @@ A lot of processes are involved in this project. This is a rough overview of how
 ## Procedures
 
 
-# Libraries and dependencies
+### Libraries and dependencies
 
 ```ShellSession
 pip3 install numpy -U
