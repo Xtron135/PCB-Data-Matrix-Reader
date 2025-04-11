@@ -93,3 +93,17 @@ Lebar 58 cm
 Tinggi 32 cm
 Tebal 10 cm
 
+
+
+
+RPI-CAM3-W
+DS-6812-WS-601M
+
+PCB Size 27 x 27 cm
+Distance for 5MP = 15 cm, cannot see full PCB
+
+
+usi guizero to design simple ui
+
+
+
