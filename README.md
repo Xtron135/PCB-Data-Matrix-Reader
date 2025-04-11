@@ -208,19 +208,19 @@ python3 detect.py --weights best.pt --img 640 --conf 0.5 --source 0
 >[!TIP]
 >If you run successfully run the detection program, at a proper distance between the PCB and the camera, the program should be able to detect the Data Matrix. You should be able to see a square boundary box highlighting the Data Matrix. If the confidence level is below 0.5, you can see only the boundary box. If the its higher than 0.5, you should see the label `Data-Matrix` with the boundary box. Don't worry about the confidence level. As long as the image is clear, we will be able to read it as long as the image is clear.
 
+Finally, if everything good, we are ready to run the main program. Run this command:
 
 ```ShellSession
-cd ~
+python3 main.py
 ```
-```ShellSession
-cd ~
-```
-```ShellSession
-cd ~
-```
-```ShellSession
-cd ~
-```
+
+Now press the push button. Your LED should light up, indicating that the program is processing the input. When it's finished, the LED will turn off. And you can check the output.
+
+You can check detection image in the folder `output/exp/`.
+
+You can check the cropped Data Matrix in the folder `output/exp/crop/`. If the Data Matrix confidence level is below 0.5, the image will be in the `0` folder. Else, it will be in the `Data-Matrix` folder.
+
+You can check the content of your Data Matrix in the text file, in the `output` folder.
 
 
 ## Code Explanation
