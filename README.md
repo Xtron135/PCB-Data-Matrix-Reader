@@ -129,6 +129,7 @@ sudo nano /home/pi/yolov5/models/experimental.py
 ```
 
 Looks for this section:
+
 ```python
 def attempt_load(weights, device=None, inplace=True, fuse=True):
   """
@@ -139,6 +140,38 @@ def attempt_load(weights, device=None, inplace=True, fuse=True):
 
   model = Ensemble()
 ```
+
+Add this code snippets into the code, between 'from models.yolo' and 'model = Ensemble()'':
+
+```python
+  import pathlib
+  import sys
+
+  if sys.platform != 'win!32:
+    pathlib.WindowsPath = pathlib.PosixPath
+```
+
+Your code should look like this now:
+
+```python
+def attempt_load(weights, device=None, inplace=True, fuse=True):
+  """
+  Loads and fuses an ensemble or single YOLOv5 model from weights, handling device placement and model adjustments.
+  Example inputs: weights=[a,b,c] or a single model weights=[a] or weights=a.
+  """
+  from models.yolo import Detect, Model
+  import pathlib
+  import sys
+
+  if sys.platform != 'win!32:
+    pathlib.WindowsPath = pathlib.PosixPath
+
+  model = Ensemble()
+```
+
+Save your code by pressing CTRL and O on your keyboard.\
+
+Exit the code editor by pressing CTRL and X on your keyboard.\
 
 
 ## Code Explanation
