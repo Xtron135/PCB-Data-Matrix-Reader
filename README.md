@@ -113,29 +113,17 @@ cd ~
 git clone https://github.com/Xtron135/PCB-Data-Matrix-Reader.git
 ```
 
-Copy all contents inside 'Aditional Contents' folder (in this repo) into 'yolov5' folder:
+Copy all contents inside the 'Aditional-Contents' folder (in this repo) into 'yolov5' folder:
+
 ```ShellSession
-mv PCB-Data-Matrix-Reader/Ad
-```
-```ShellSession
-cd ~
-```
-```ShellSession
-cd ~
-```
-```ShellSession
-cd ~
-```
-```ShellSession
-cd ~
-```
-```ShellSession
-cd ~
-```
-```ShellSession
-cd ~
+mv -r PCB-Data-Matrix-Reader/Additional-Contents/* yolov5/
 ```
 
+Enter yolov5 folder:
+
+```ShellSession
+cd yolov5
+```
 
 
 ## Code Explanation
