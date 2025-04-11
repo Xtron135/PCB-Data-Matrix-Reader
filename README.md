@@ -223,9 +223,6 @@ You can check the cropped Data Matrix in the folder `output/exp/crop/`. If the D
 You can check the content of your Data Matrix in the text file, in the `output` folder.
 
 
-## Code Explanation
-
-
 ## Reference
 
 Data Matrix Dataset is from Roboflow User, tryclofus. All credits for the dataset goes to him.\
