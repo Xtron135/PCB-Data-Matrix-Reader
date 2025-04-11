@@ -70,6 +70,9 @@ sudo apt install -y python3 python3-pip git libatlas-base-dev libgtk-3-dev pkg-c
 ```ShellSession
 sudo apt-get install libdmtx0b
 ```
+```ShellSession
+sudo apt-get install fswebcam
+```
 
 >[!TIP]
 >If you got an error about EXTERNALLY MANAGED Python Package, run this command:
@@ -173,11 +176,41 @@ Save your code by pressing CTRL and O on your keyboard.
 
 Exit the code editor by pressing CTRL and X on your keyboard.
 
-
 Now we are ready to run the program.
 
 
 ### 4. Run the program
+
+Enter the `yolov5` folder
+```ShellSession
+cd yolov5
+```
+
+Try to test your USB camera to see if your camera placement, PCB placement, and the distance in between, is correct. Make sure your camera is able to detect the Data Matrix properly. Run this command to test your camera detection:
+
+```ShellSession
+ffplay -f v4l2 -video_size 640x480 -framerate 30 -i /dev/video0
+```
+
+>[!TIP]
+>If you got an error about no camera on `video0`, try to use `video1` instead. Alternatively, you can use this command to check, how many `video` you have connected. This indicates how many cameras are detected on your USB port.
+>```ShellSession
+>ls /dev/video*
+>```
+>Normally USB Webcam will be shown as `video0` or `video1`. If you have connected your camera but don't see any `video0` or `video1`, try to check your USB port connection or this may also indicate that you have a faulty USB Webcam or faulty USB port.
+
+```ShellSession
+cd ~
+```
+```ShellSession
+cd ~
+```
+```ShellSession
+cd ~
+```
+```ShellSession
+cd ~
+```
 
 
 ## Code Explanation
