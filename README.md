@@ -110,10 +110,12 @@ cd ~
 ### 2. Clone this repo and prepare additional files
 
 ```ShellSession
-cd ~
+git clone https://github.com/Xtron135/PCB-Data-Matrix-Reader.git
 ```
+
+Copy all contents inside 'Aditional Contents' folder (in this repo) into 'yolov5' folder:
 ```ShellSession
-cd ~
+mv PCB-Data-Matrix-Reader/Ad
 ```
 ```ShellSession
 cd ~
