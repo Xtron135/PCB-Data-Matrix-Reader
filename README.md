@@ -71,11 +71,11 @@ sudo apt install -y python3 python3-pip git libatlas-base-dev libgtk-3-dev pkg-c
 sudo apt-get install libdmtx0b
 ```
 
->[!TIPS]
+>[!TIP]
 >If you got an error about EXTERNALLY MANAGED Python Package, run this command:
-```ShellSession
-  sudo mv /usr/lib/python3.11/EXTERNALLY-MANAGED /usr/lib/python3.11/EXTERNALLY-MANAGED.old
-```
+>```ShellSession
+>  sudo mv /usr/lib/python3.11/EXTERNALLY-MANAGED /usr/lib/python3.11/EXTERNALLY-MANAGED.old
+>```
 
 
 
