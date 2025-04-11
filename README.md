@@ -53,6 +53,32 @@ A lot of processes are involved in this project. This is a rough overview of how
 ## Procedures
 
 
+# Libraries and dependencies
+
+```ShellSession
+pip3 install numpy -U
+```
+```ShellSession
+pip3 install pylibdmtx
+```
+```ShellSession
+pip3 install pillow
+```
+```ShellSession
+sudo apt install -y python3 python3-pip git libatlas-base-dev libgtk-3-dev pkg-config libqt5gui5
+```
+```ShellSession
+sudo apt-get install libdmtx0b
+```
+
+>[!TIPS]
+>If you got an error about EXTERNALLY MANAGED Python Package, run this command:
+```ShellSession
+  sudo mv /usr/lib/python3.11/EXTERNALLY-MANAGED /usr/lib/python3.11/EXTERNALLY-MANAGED.old
+```
+
+
+
 ## Code Explanation
 
 
