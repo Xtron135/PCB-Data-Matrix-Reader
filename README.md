@@ -107,6 +107,34 @@ Back to home directory:
 cd ~
 ```
 
+### 2. Clone this repo and prepare additional files
+
+```ShellSession
+cd ~
+```
+```ShellSession
+cd ~
+```
+```ShellSession
+cd ~
+```
+```ShellSession
+cd ~
+```
+```ShellSession
+cd ~
+```
+```ShellSession
+cd ~
+```
+```ShellSession
+cd ~
+```
+```ShellSession
+cd ~
+```
+
+
 
 ## Code Explanation
 
