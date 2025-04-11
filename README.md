@@ -113,7 +113,7 @@ cd ~
 git clone https://github.com/Xtron135/PCB-Data-Matrix-Reader.git
 ```
 
-Copy all contents inside the 'Aditional-Contents' folder (in this repo) into 'yolov5' folder:
+Copy all contents inside the `Aditional-Contents` folder (in this repo) into `yolov5` folder:
 
 ```ShellSession
 mv -r PCB-Data-Matrix-Reader/Additional-Contents/* yolov5/
@@ -141,7 +141,7 @@ def attempt_load(weights, device=None, inplace=True, fuse=True):
   model = Ensemble()
 ```
 
-Add this code snippets into the code, between 'from models.yolo' and 'model = Ensemble()'':
+Add this code snippets into the code, between `from models.yolo` and `model = Ensemble()`:
 
 ```python
   import pathlib
