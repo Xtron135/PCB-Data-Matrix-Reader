@@ -186,7 +186,7 @@ Enter the `yolov5` folder
 cd yolov5
 ```
 
-Try to test your USB camera to see if your camera placement, PCB placement, and the distance in between, is correct. Make sure your camera is able to detect the Data Matrix properly. Run this command to test your camera detection:
+Try to test your USB camera to see if your camera placement, PCB placement, and the distance in between, is correct. Make sure your camera can see the PCB clearly. Adjust the focus if necessary. Run this command to test your camera view:
 
 ```ShellSession
 ffplay -f v4l2 -video_size 640x480 -framerate 30 -i /dev/video0
@@ -198,6 +198,16 @@ ffplay -f v4l2 -video_size 640x480 -framerate 30 -i /dev/video0
 >ls /dev/video*
 >```
 >Normally USB Webcam will be shown as `video0` or `video1`. If you have connected your camera but don't see any `video0` or `video1`, try to check your USB port connection or this may also indicate that you have a faulty USB Webcam or faulty USB port.
+
+Next, run this command to test the detection of your camera. Make sure your camera can detect the Data Matrix properly:
+
+```ShellSession
+python3 detect.py --weights best.pt --img 640 --conf 0.5 --source 0
+```
+
+>[!TIP]
+>If you run successfully run the detection program, at a proper distance between the PCB and the camera, the program should be able to detect the Data Matrix. You should be able to see a square boundary box highlighting the Data Matrix. If the confidence level is below 0.5, you can see only the boundary box. If the its higher than 0.5, you should see the label `Data-Matrix` with the boundary box. Don't worry about the confidence level. As long as the image is clear, we will be able to read it as long as the image is clear.
+
 
 ```ShellSession
 cd ~
