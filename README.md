@@ -169,9 +169,15 @@ def attempt_load(weights, device=None, inplace=True, fuse=True):
   model = Ensemble()
 ```
 
-Save your code by pressing CTRL and O on your keyboard.\
+Save your code by pressing CTRL and O on your keyboard.
 
-Exit the code editor by pressing CTRL and X on your keyboard.\
+Exit the code editor by pressing CTRL and X on your keyboard.
+
+
+Now we are ready to run the program.
+
+
+### 4. Run the program
 
 
 ## Code Explanation
