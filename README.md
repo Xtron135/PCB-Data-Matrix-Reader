@@ -119,10 +119,25 @@ Copy all contents inside the 'Aditional-Contents' folder (in this repo) into 'yo
 mv -r PCB-Data-Matrix-Reader/Additional-Contents/* yolov5/
 ```
 
-Enter yolov5 folder:
+### 3. Update path settings in experimental.py
+
+>[!NOTE]
+>This is because the models we trained, are using Windows PC. So by default, the path settings are based on the Windows environment. So, we want to run this program in Linux, we need to change the path settings to match Linux environment,
 
 ```ShellSession
-cd yolov5
+sudo nano /home/pi/yolov5/models/experimental.py
+```
+
+Looks for this section:
+```python
+def attempt_load(weights, device=None, inplace=True, fuse=True):
+  """
+  Loads and fuses an ensemble or single YOLOv5 model from weights, handling device placement and model adjustments.
+  Example inputs: weights=[a,b,c] or a single model weights=[a] or weights=a.
+  """
+  from models.yolo import Detect, Model
+
+  model = Ensemble()
 ```
 
 
