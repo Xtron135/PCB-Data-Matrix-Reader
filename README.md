@@ -78,6 +78,35 @@ sudo apt-get install libdmtx0b
 >```
 
 
+### 1. Install YOLOv5
+
+Run this command:
+
+```ShellSession
+git clone https://github.com/ultralytics/yolov5.git
+```
+
+Enter the folder:
+
+```ShellSession
+cd yolov5
+```
+
+Install pytorch and requirements.txt:
+
+```ShellSession
+pip3 install torch torchvision
+```
+```ShellSession
+pip3 install -r requirements.txt
+```
+
+Back to home directory:
+
+```ShellSession
+cd ~
+```
+
 
 ## Code Explanation
 
