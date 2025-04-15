@@ -119,7 +119,7 @@ git clone https://github.com/Xtron135/PCB-Data-Matrix-Reader.git
 Copy all contents inside the `Aditional-Contents` folder (in this repo) into `yolov5` folder:
 
 ```ShellSession
-mv -r PCB-Data-Matrix-Reader/Additional-Contents/* yolov5/
+sudo mv -r /home/pi/PCB-Data-Matrix-Reader/Additional-Contents/* /home/pi/yolov5/
 ```
 
 ### 3. Update path settings in experimental.py
