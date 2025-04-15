@@ -95,11 +95,17 @@ Tebal 10 cm
 
 
 
+
+Qayyum - Industry, Data Matrix Project
 RPI-CAM3-W
 DS-6812-WS-601M
 3D-F-C-ENPLA-W
 HD-PM-M3-20 x 30
 HD-PM-M3-NUT x 30
+BO-CAM-V2V3
+WR-FCAM-2215-50
+WR-FCAM-2215-30
+
 
 PCB Size 27 x 27 cm
 Distance for 5MP = 15 cm, cannot see full PCB
