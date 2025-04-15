@@ -166,7 +166,7 @@ def attempt_load(weights, device=None, inplace=True, fuse=True):
   import pathlib
   import sys
 
-  if sys.platform != 'win!32:
+  if sys.platform != 'win32':
     pathlib.WindowsPath = pathlib.PosixPath
 
   model = Ensemble()
