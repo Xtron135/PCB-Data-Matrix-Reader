@@ -7,10 +7,12 @@ import time
 
 GPIO.setmode(GPIO.BCM)
 
-button = 13
+# 13 for PiControl, 4 for Industrial Hat
+button = 4
 GPIO.setup(button, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
-led = 23
+# 23 for PiControl, 19 for Industrial Hat
+led = 19
 GPIO.setup(led, GPIO.OUT)
 GPIO.output(led, GPIO.LOW)
 
@@ -29,7 +31,12 @@ while True:
     os.system("sudo rm /home/pi/yolov5/output/exp/crops/Data-Matrix/*")
     os.system("sudo rm fswebcam /home/pi/yolov5/input/image.jpg")
     time.sleep(0.1)
-    os.system("fswebcam -r 640x480 --no-banner /home/pi/yolov5/input/image.jpg")
+
+    # Uncomment the line below if using CSI Camera
+    os.system("rpicam-jpeg -n --output /home/pi/yolov5/input/image.jpg --width 640 --height 480")
+    # Uncomment the line below if using USB Camera
+    #os.system("fswebcam -r 640x480 --no-banner /home/pi/yolov5/input/image.jpg")
+
     os.system("python3 detect.py --weights best.pt --img 640 --conf 0.5 --source /home/pi/yolov5/input/image.jpg --save-crop --project /home/pi/yolov5/output --exist-ok")
 
 

@@ -49,14 +49,36 @@ https://www.raspberrypi.com/documentation/computers/camera_software.html#use-a-u
 
 ffplay -f v4l2 -video_size 640x480 -framerate 30 -i /dev/video0 (Preview Camera)
 
+rpicam-hello --timeout 20000 --width 640 --height 480 (preview for Raspberry Pi Cam)
+
 fswebcam image.jpg
 
 fswebcam -r 640x480 --no-banner /home/pi/yolov5/input/image.jpg
+
+rpicam-jpeg --timeout 0 --output /home/pi/yolov5/input/image.jpg --width 640 --height 480  (Pi Camera)
 
 python3 detect.py --weights best.pt --img 640 --conf 0.5 --source 0
 
 python3 detect.py --weights best.pt --img 640 --conf 0.5 --source /home/pi/yolov5/input/image.jpg --save-crop --project /home/pi/yolov5/output --exist-ok
 
+
+
+UART0 = RS485
+UART4 = RS232
+
+Digital Inputs:
+DI0 = GPIO4
+DI1 = GPIO5
+DI2 = GPIO6
+DI3 = GPIO16
+DI4 = GPIO22
+DI5 = GPIO27
+
+Digital Outputs:
+DO0 = GPIO19
+DO1 = GPIO20
+DO2 = GPIO21
+DO3 = GPIO26
 
 
 
