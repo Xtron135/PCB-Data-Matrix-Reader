@@ -150,7 +150,7 @@ Add this code snippets into the code, between `from models.yolo` and `model = En
   import pathlib
   import sys
 
-  if sys.platform != 'win!32:
+  if sys.platform != 'win32':
     pathlib.WindowsPath = pathlib.PosixPath
 ```
 
