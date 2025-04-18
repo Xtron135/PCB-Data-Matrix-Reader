@@ -135,6 +135,7 @@ Distance for 5MP = 15 cm, cannot see full PCB
 using guizero to design simple ui
 
 https://lawsie.github.io/guizero/start/
+https://pypi.org/project/guizero/
 
 
 
