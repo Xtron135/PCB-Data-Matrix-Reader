@@ -137,5 +137,7 @@ using guizero to design simple ui
 https://lawsie.github.io/guizero/start/
 https://pypi.org/project/guizero/
 
+pip3 install guizero
+
 
 
