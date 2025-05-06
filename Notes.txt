@@ -140,4 +140,7 @@ https://pypi.org/project/guizero/
 pip3 install guizero
 
 
+upscale image
+https://github.com/tool3/upscaler-cli
+
 
