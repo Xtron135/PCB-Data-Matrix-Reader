@@ -33,6 +33,12 @@ Notes: Commercial Use of YOLO model. YOLOv4 and below is allowed to be use in co
 
 pip3 install numpy -U
 
+**
+pip3 install tensorflow
+
+video=DSI-1:1280x720@60,rotate=90
+
+
 
 pytorch
 
@@ -139,8 +145,13 @@ https://pypi.org/project/guizero/
 
 pip3 install guizero
 
+sudo apt-get install nodejs
+sudo apt-get install npm
 
 upscale image
 https://github.com/tool3/upscaler-cli
-
+- Error - https://github.com/tensorflow/tfjs/issues/6676
+- Downgrade nodejs
+- Downgrade npm
+https://github.com/ImageMagick/ImageMagick?tab=readme-ov-file
 
