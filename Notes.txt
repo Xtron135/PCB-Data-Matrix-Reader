@@ -37,6 +37,7 @@ pip3 install numpy -U
 pip3 install tensorflow
 
 video=DSI-1:1280x720@60,rotate=90
+hdmi_force_hotplug=1
 
 
 
@@ -56,6 +57,8 @@ https://www.raspberrypi.com/documentation/computers/camera_software.html#use-a-u
 ffplay -f v4l2 -video_size 640x480 -framerate 30 -i /dev/video0 (Preview Camera)
 
 rpicam-hello --timeout 20000 --width 640 --height 480 (preview for Raspberry Pi Cam)
+rpicam-hello --timeout 20000 --width 768 --height 768 --autofocus-on-capture --autofocus-speed fast --autofocus-range full
+rpicam-still -n --output /home/pi/yolov5/input/image.jpg --width 768 --height 768 --autofocus-on-capture
 
 fswebcam image.jpg
 
@@ -154,4 +157,15 @@ https://github.com/tool3/upscaler-cli
 - Downgrade nodejs
 - Downgrade npm
 https://github.com/ImageMagick/ImageMagick?tab=readme-ov-file
+https://upscalerjs.com/documentation/getting-started
+
+https://pypi.org/project/super-image/
+
+
+
+
+Convert pt to onnx
+https://docs.ultralytics.com/yolov5/tutorials/model_export/#colab-pro-cpu
+
+python export.py --weights yolov5s.pt --include torchscript onnx
 
