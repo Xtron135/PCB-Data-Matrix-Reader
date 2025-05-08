@@ -33,11 +33,11 @@ while True:
     time.sleep(0.1)
 
     # Uncomment the line below if using CSI Camera
-    os.system("rpicam-jpeg -n --output /home/pi/yolov5/input/image.jpg --width 640 --height 480")
+    os.system("rpicam-still -n --output /home/pi/yolov5/input/image.jpg --width 768 --height 768 --sharpness 2.0 --autofocus-on-capture --autofocus-speed fast --autofocus-range full")
     # Uncomment the line below if using USB Camera
     #os.system("fswebcam -r 640x480 --no-banner /home/pi/yolov5/input/image.jpg")
 
-    os.system("python3 detect.py --weights best.pt --img 640 --conf 0.5 --source /home/pi/yolov5/input/image.jpg --save-crop --project /home/pi/yolov5/output --exist-ok")
+    os.system("python3 detect.py --weights best.pt --img 768 --conf 0.5 --source /home/pi/yolov5/input/image.jpg --save-crop --project /home/pi/yolov5/output --exist-ok")
 
 
     # Read the Cropped Data Matrix and Store Locally
