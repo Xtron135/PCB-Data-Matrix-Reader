@@ -225,7 +225,7 @@ You can check the content of your Data Matrix in the text file, in the `output` 
 
 ## Reference
 
-Data Matrix Dataset is from Roboflow User, tryclofus. All credits for the dataset goes to him.\
+Data Matrix Dataset is originally from a Roboflow User, "tryclofus". All credits for the dataset goes to the dataset owner.\
 https://universe.roboflow.com/xtron135/dtmx-fcscu
 
 Raspberry Pi Camera commands documentation.\
