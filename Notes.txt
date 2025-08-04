@@ -161,6 +161,7 @@ https://upscalerjs.com/documentation/getting-started
 
 https://pypi.org/project/super-image/
 
+https://www.dedoimedo.com/computers/image-upscale-manual.html#:~:text=In%20today%27s%20tutorial%2C%20I%20will%20tell%20you%20how,ImageMagick%20package%20in%20your%20Linux%20distribution%20of%20choice
 
 
 
@@ -168,4 +169,6 @@ Convert pt to onnx
 https://docs.ultralytics.com/yolov5/tutorials/model_export/#colab-pro-cpu
 
 python export.py --weights yolov5s.pt --include torchscript onnx
+
+
 
