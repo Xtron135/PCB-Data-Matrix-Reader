@@ -120,7 +120,7 @@ git clone https://github.com/Xtron135/PCB-Data-Matrix-Reader.git
 Copy all contents inside the `Aditional-Contents` folder (in this repo) into `yolov5` folder:
 
 ```ShellSession
-sudo mv /home/pi/PCB-Data-Matrix-Reader/Additional-Contents/* /home/pi/yolov5/
+sudo cp /home/pi/PCB-Data-Matrix-Reader/Additional-Contents/* /home/pi/yolov5/
 ```
 
 ### 3. Update path settings in experimental.py
@@ -237,6 +237,7 @@ https://my.cytron.io/tutorial/worker-safety-compliance-monitoring-system-with-ra
 
 Read Data Matrix contents using 'pylibdmtx' library\
 https://pypi.org/project/pylibdmtx/
+
 =======
 # PCB-Data-Matrix-Reader
 
