@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # PCB-Data-Matrix-Reader
 
 
@@ -478,3 +478,4 @@ https://my.cytron.io/tutorial/worker-safety-compliance-monitoring-system-with-ra
 Read Data Matrix contents using 'pylibdmtx' library\
 https://pypi.org/project/pylibdmtx/
 >>>>>>> f3b4d5743d212bf4e60d90d8798f28dfdd25ea70
+
