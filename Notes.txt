@@ -172,3 +172,30 @@ python export.py --weights yolov5s.pt --include torchscript onnx
 
 
 
+
+Setup Hailo
+
+Dependencies:
+
+untuk install Hailo Data Compiler:
+
+sudo apt-get install libbz2-dev
+sudo cp /usr/lib/python3.13/lib-dynload/_bz2.cpython-313-x86_64-linux-gnu.so  /usr/local/lib/python3.13/
+kena make, make install balik dalam folder python10.
+
+sudo apt install python3-tk graphviz libgraphviz
+
+
+
+
+
+python3 basic_pipelines/detection.py --hef-path /home/pi/datamatrix8L.hef --input rpi --labels-json /home/pi/barcode-labels.json
+
+
+
+
+
+
+use degirum untuk utilize Hailo hardware, dan guna cv untuk image process
+
+
